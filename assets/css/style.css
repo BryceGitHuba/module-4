@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  #options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #end-screen input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  /* Add this to your style.css file */
+#timer {
+    font-size: 24px;
+    color: red;
+    /* Add any other styling you want */
+  }
